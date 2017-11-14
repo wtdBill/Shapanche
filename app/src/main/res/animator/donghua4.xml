@@ -1,0 +1,53 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="sequentially">
+
+    <objectAnimator
+        android:duration="9600"
+        android:propertyName="translationY"
+        android:valueFrom="0"
+        android:valueTo="-1380"
+        android:valueType="floatType">
+    </objectAnimator>
+    <set android:ordering="sequentially">
+        <objectAnimator
+            android:duration="2000"
+            android:propertyName="rotation"
+            android:valueFrom="0"
+            android:valueTo="-90"
+            android:valueType="floatType">
+        </objectAnimator>
+        <set android:ordering="sequentially">
+            <objectAnimator
+                android:duration="6200"
+                android:propertyName="translationX"
+                android:valueFrom="0"
+                android:valueTo="-930"
+                android:valueType="floatType"></objectAnimator>
+            <objectAnimator
+                android:duration="2000"
+                android:propertyName="rotation"
+                android:valueFrom="-90"
+                android:valueTo="-180"
+                android:valueType="floatType"></objectAnimator>
+            <objectAnimator
+                android:duration="9600"
+                android:propertyName="translationY"
+                android:valueFrom="-1380"
+                android:valueTo="-10"
+                android:valueType="floatType"></objectAnimator>
+            <objectAnimator
+                android:duration="2000"
+                android:propertyName="rotation"
+                android:valueFrom="-180"
+                android:valueTo="-270"
+                android:valueType="floatType"></objectAnimator>
+            <objectAnimator
+                android:duration="6200"
+                android:propertyName="translationX"
+                android:valueFrom="-930"
+                android:valueTo="0"
+                android:valueType="floatType"></objectAnimator>
+        </set>
+    </set>
+
+</set>
